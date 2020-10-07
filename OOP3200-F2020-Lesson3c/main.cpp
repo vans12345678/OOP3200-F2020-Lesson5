@@ -60,19 +60,18 @@ int main()
 
 	BuildGameObjects(gameObjects, num_of_GO);
 
-	int id1;
-	std::cout << "What is the first object Index?: ";
-	std::cin >> id1;
+	int index1;
+	std::cout << "What is the first object Index in the vector?: ";
+	std::cin >> index1;
 	std::cout << "--------------------------------------------------------------\n" << std::endl;
 
-	int id2;
-	std::cout << "What is the second object Index?: ";
-	std::cin >> id2;
+	int index2;
+	std::cout << "What is the second object Index in the vector?: ";
+	std::cin >> index2;
 	std::cout << "--------------------------------------------------------------\n" << std::endl;
 
-	CompareGameObjects(gameObjects[id1], gameObjects[id2]);
+	CompareGameObjects(gameObjects[index1], gameObjects[index2]);
 	
-	//std::cout << gameObjects[1]->ToString() << std::endl;
 	
 }
 
