@@ -1,3 +1,9 @@
+/*
+ * File: Vector2D.h
+ * Name: Andre Agrippa
+ * Description: OOP3200 ICE 4 (Lesson 5)
+ * Date: 10/07/2020
+ */
 #pragma once
 #ifndef __VECTOR2D__
 #define __VECTOR2D__

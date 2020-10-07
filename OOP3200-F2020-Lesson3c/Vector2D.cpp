@@ -1,3 +1,9 @@
+/*
+ * File: Vector2D.cpp
+ * Name: Andre Agrippa
+ * Description: OOP3200 ICE 4 (Lesson 5)
+ * Date: 10/07/2020
+ */
 #include "Vector2D.h"
 
 #include <iomanip>
